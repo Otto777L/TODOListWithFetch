@@ -10,3 +10,31 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+body {
+    background-color: rgb(245, 243, 243);
+}
+li .clear {
+    visibility: hidden;
+}
+
+li:hover .clear {
+    visibility: visible;
+  }
+
+.input {
+   width: 50%; 
+}
+.century {
+    font-family: Calibri;
+    color: rgb(236, 165, 153);
+}
+.listText {
+    font-size: 24px;
+    font-family: Cambria Math;
+}
+.pendientes {
+    font-size: 20px;
+}
+.clear:hover {
+    color: maroon;
+}
